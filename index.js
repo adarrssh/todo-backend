@@ -52,6 +52,13 @@ app.post("/login",(req,res)=>{
 })
 
 
+
+app.get("/",(req,res)=>{
+    res.send(" server working")
+})
+
+
+
     
 
 app.post("/register",(req,res)=>{    
