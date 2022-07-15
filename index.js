@@ -90,6 +90,8 @@ app.post("/register",(req,res)=>{
 
 }) 
 
-app.listen(6969,()=>{
+const PORT = process.env.PORT || 6969;
+
+app.listen(PORT ,()=>{
     console.log("started")
 })
